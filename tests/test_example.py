@@ -1,4 +1,4 @@
-from amwds import example
+from amwds.example import print_cwd
 
 
 def func(x):
@@ -11,6 +11,6 @@ def test_answer():
 
 def test_print_cwd():
     try:
-        example.print_cwd()
+        print_cwd()
     except Exception as e:
         raise e
